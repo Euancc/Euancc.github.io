@@ -1,3 +1,10 @@
  .picture {
   max-width: fit-content;
 } 
+p {
+  text-align: center;
+}
+
+body {
+  background-color: aquamarine;
+}
