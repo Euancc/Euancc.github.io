@@ -1,0 +1,19 @@
+h1, h2, p {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.heading-color {
+  color: steelblue;
+}
+.heading-color2 {
+  color: darkgoldenrod;
+}
+img {
+  
+  height: 400px;
+  width: 600px;
+}
+div {
+  text-align: center;
+}
