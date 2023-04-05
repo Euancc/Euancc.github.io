@@ -2,6 +2,7 @@ h1, h2, p {
   text-align: center;
   margin-left: 200px;
   margin-right: 200px;
+  
 }
 .heading-color {
   color: steelblue;
@@ -16,4 +17,8 @@ img {
 }
 div {
   text-align: center;
+}
+body {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
