@@ -6,29 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="blog.css">
   </head>
-  <body>
-  <h1 id="zoom" class="heading-color">The difference between ids an classes in HTML and CSS and when to use them</h1>
-  <p>A web page is broken up into differnt sections such as headings, paragraphs, footers and many more sections which we call elements. If I wanted to make a heading on a page steelblue then I can make a rule on CSS that makes all of the headings steelblue. That is fine if you only have one heading but if you have multiple headings and you want to make a differnt heading <em>darkgoldenrod</em> then you would have to make a class of the color <em>darkgoldenrod</em> and apply that class to the specific heading. You can then apply that class to any other elements on your page that you want to turn <em>darkgoldenrod</em>. You can do the same thing with an id except that you can only us the id rule to apply to one element. You can have multiple ids but each has to have a different name and be applied individually to an element. With an id you can create a link to somewhere else on the web page so it takes you directly there without having to scroll and find it, which is something that you cannot do with a class.
-  </p>
-  <h2 class="heading-color">Damn, steelblue looks great</h2>
-  <div>
-  <img src="C:\Users\GGPC\OneDrive\Pictures\Screenshots\Screenshot 2023-04-05 152938.png">
+  <body class="bg">
+  <h1>Best practices associated with using classes vs. ids</h1>
+
+  <h2>With classes, you can use the same class on multiple elements in HTML</h2>
+  
+  <div id="c1" class="container" >
+  <img class="sshot" src="C:\Users\GGPC\OneDrive\Pictures\Screenshots\Screenshot 2023-04-07 135952.png class.png">
+  <p class="dscrpt"> Here you can see that I added the same <em>class</em> to two different elements.</p>
   </div>
-  <p>Notice how I used the same class for both my h1 and h2 elements, wowsers</p>
-  <h2 class="heading-color2">Zomg, darkgoldenrod is tantalising</h2>
-  <div>
-    <img src="C:\Users\GGPC\OneDrive\Pictures\Screenshots\Screenshot 2023-04-05 160944.png">
+  <div id="c2" class="container">
+    <img class="sshot" src="C:\Users\GGPC\OneDrive\Pictures\Screenshots\Screenshot 2023-04-07 140518.png">
+    <p class="dscrpt">This is where I created the class and rules in CSS</p>
   </div>
-  <p>And here I used a different class that I set up for the tantalising <em>darkgoldenrod</em></p>
-  <div>
-    <img src="C:\Users\GGPC\OneDrive\Pictures\Screenshots\Screenshot 2023-04-06 074347.png">
+
+<h2>With i.ds each element needs to have it's own unique i.d</h2>
+
+  <div id="c3" class="container">
+  <img class="sshot" src="C:\Users\GGPC\OneDrive\Pictures\Screenshots\Screenshot 2023-04-07 135952.png ids.png">
+  <p class="dscrpt">Each <em>i.d</em> has its own unique name</p>
   </div>
-  <p>You can see here where I made a class for each color with CSS</p>
-  <div>
-    <img src="C:\Users\GGPC\OneDrive\Pictures\Screenshots\Screenshot 2023-04-06 080112.png">
-  </div>
-  <p>Here you can see that I created an id of where the link will take you at the top of the page, and also the link anchored in the text in below</p>
-  <p><a href="#zoom">Zoom me back to the top, I want to read it again</a></p>
+  <div id="c4" class="container">
+    <img class="sshot" src="C:\Users\GGPC\OneDrive\Pictures\Screenshots\Screenshot 2023-04-07 140952.png">
+    <p class="dscrpt">The rules that I made for the i.ds in CSS</p>
+    </div>
   </body>
+
 
 </html>
