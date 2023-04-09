@@ -55,3 +55,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.home {
+
+  padding-top: 5px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+a:hover {
+  color: bisque;
+}
