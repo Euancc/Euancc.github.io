@@ -4,31 +4,31 @@ h1, h2 {
 h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-decoration-line: underline;
-  font-size: 45px;
+  font-size: 35px;
   padding-bottom: 70px;
   padding-top: 50px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .sshot {
-  height: 250px;
-  width: 550px;
+  height: 175px;
+  width: 350px;
   float: right;
 }
 .container {
 
   position: relative;
-  width: 70%;
-  left: 15%;
+  width: 50%;
+  left: 25%;
   border-radius: 2%;
   padding-right: 1%;
   padding-top: 1%;
   padding-bottom: 1%;
   margin-top: 1%;
-  background-color: darkgoldenrod;
+  
   background-color: rgba(184, 134, 11, .25);
   
  
@@ -37,7 +37,8 @@ h2 {
 }
 
 .dscrpt {
-  font-size: 25px;
+  font-weight: 520;
+  font-size: 20px;
   padding-top: 5%;
   padding-left: 1%;
 }
@@ -49,11 +50,13 @@ body {
   margin-bottom: 50px;
 }
 .bg {
-  background-image: url("https://wallpapercave.com/wp/wp2855710.jpg");
-  height: 100%;
+  background-image: url("https://img.freepik.com/free-photo/perspective-exterior-nobody-empty-box_1258-260.jpg?size=626&ext=jpg");
+  width: 100vw;
+  height: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 .home {
 
