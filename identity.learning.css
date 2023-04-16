@@ -1,14 +1,19 @@
 p, h1, h2, h3 {
   text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
   }
   p 
   {
   font-size: 20px;
   }
-  body {
-    margin-left: 15%;
-    margin-right: 15%
-  }
+
 .bg {
-  background-color: azure;
+  background-image: url("https://img.freepik.com/free-photo/perspective-exterior-nobody-empty-box_1258-260.jpg?size=626&ext=jpg");
+  width: 100vw;
+  height: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
